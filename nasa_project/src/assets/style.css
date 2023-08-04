@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: #125270; */
+    color: white;
+    /* background-image: linear-gradient(#274863, #000000); */
+}
+body{
+    background-image: linear-gradient(#274863, #000000);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 4%;
+    width: 62%;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 9%;
+    width: 53%;
+}
+
+.plane {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2%;
+}
+
+.input {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2%;
+    margin: 6% 0 2% 0;
+    align-items: center;
+}
+
+.input input {
+    width: 35vw;
+    padding: 7px;
+    border-color: white;
+}
+
+.container {
+    padding: 2vw 10vw 0vw 10vw;
+}
+.view {
+    text-align: center;
+    margin: 2%;
+}
+
+
+.nasa_images {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-items: inherit;
+}
+
+.all_images img{
+    width: 100%;
+}
+.all_images {
+    width: 93%;
+    gap: 5%;
+    border: 1px solid white;
+    padding: 2%;
+    margin: 4%;
+    border-radius: 14px;
+}
+
+.mid h2{
+    margin: 5% 0 2% 0;
+}
+
+img.search {
+    width: 2vw;
+}
+
+img.logos {
+    width: 6vw;
+}
+
+.btns {
+    display: flex;
+    gap: 5%;
+    width: 24vw;
+    margin: 2% 0 2% 0;
+    font-size: 2vw;
+    place-content: flex-end;
+}
+
+
+button.view {
+    width: 14vw;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #0066B3;
+}
+
+button.one {
+    width: 11vw;
+    padding: 6px;
+    border-radius: 7px;
+    background-color: #e2660d;
+}
+
+button.two {
+    width: 11vw;
+    padding: 6px;
+    border-radius: 7px;
+    background-color: #2092eec4;
+
+}
+
+.view img{
+    width: 5vw;
+    margin-bottom: 2%;
+}
+
+.last p {
+    text-align: center;
+    margin: 1%;
+}
+
+.all_images h2{
+    font-size: 1.5vw;
+    margin: 1% 0 1% 0;
+}
+.all_images p{
+    font-size: 1vw;
+    margin: 1% 0 1% 0;
+
+}
+
+.mid h2{
+    font-size: 1.5vw;
+}
+.text h2{
+    font-size: 1.2vw;
+}
+.text p{
+    font-size: 1vw;
+}
+
+.left p{
+    font-size: 1vw;
+}
+
+.right p{
+    font-size: 1vw;
+}
